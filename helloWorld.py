@@ -1,6 +1,8 @@
 import threeBody
 
-print ("Hello World")
+print ("""
+Hello World
+""")
 print ("*" * 11)
 
 x = threeBody.ThreeBody()
