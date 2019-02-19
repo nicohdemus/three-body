@@ -1,4 +1,4 @@
-import ThreeBody
+import threeBody
 
 print ("Hello World")
 print ("*" * 11)
