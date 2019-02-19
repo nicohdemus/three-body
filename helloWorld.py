@@ -1,2 +1,7 @@
-print ("Hello Worlde")
-print ("*" * 10)
+import ThreeBody
+
+print ("Hello World")
+print ("*" * 11)
+
+x=ThreeBody
+print x.baseParry()

@@ -30,3 +30,4 @@ class ThreeBody:
 
     def baseParry(self):
         return (self.skills['Fighting']/2)+2
+
