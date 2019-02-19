@@ -6,4 +6,7 @@ Hello World
 print ("*" * 11)
 
 x = threeBody.ThreeBody()
-print(f"Base Parry = {x.baseParry()}")
+print("Base Parry = " + x.baseParry())
+
+for i in x.attributes:
+    print i
