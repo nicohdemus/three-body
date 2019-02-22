@@ -25,16 +25,16 @@ class ThreeBody:
     def baseToughness(self):
         return (self.attributes['VIG']//2)+2
 
-    def toughness(self,position):
+    def toughness(self, position):
         return (self.baseToughness()+self.armor[position])
 
     def baseParry(self):
         return (self.skills['Fighting']//2)+2
 
-    def setAttribute(self,**attributes):
+    def setAttribute(self, **attributes):
         for attribute in attributes:
-            self.attributes[attribute]=attributes[attribute]
+            self.attributes[attribute] = attributes[attribute]
 
-    def setSkill(self,**skills):
+    def setSkill(self, **skills):
         for skill in skills:
-            self.skills[skill]=skills[skill]
+            self.skills[skill] = skills[skill]
