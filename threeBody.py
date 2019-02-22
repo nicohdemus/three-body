@@ -31,3 +31,10 @@ class ThreeBody:
     def baseParry(self):
         return (self.skills['Fighting']//2)+2
 
+    def setAttribute(self,**attributes):
+        for attribute in attributes:
+            self.attributes[attribute]=attributes[attribute]
+
+    def setSkill(self,**skills):
+        for skill in skills:
+            self.skills[skill]=skills[skill]
