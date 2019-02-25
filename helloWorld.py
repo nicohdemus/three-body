@@ -6,8 +6,7 @@ print("*" * 11)
 
 testVar = 'Hello Dave'
 
-print(f'{testVar}')
-print(f"{testVar}")
+print('Test variable = {}'.format(testVar))
 
 x = threeBody.ThreeBody()
 
@@ -18,11 +17,13 @@ print("\nBase Parry = " + str(x.baseParry()))
 
 print("\nToughness")
 for i in x.armor:
-    print(f'{i} = {x.toughness(i)}')
+    print('{} = {}'.format(i, x.toughness(i)))
+#    print(f'{i} = {x.toughness(i)}')
 
 print("\nAttributes")
 for i in x.attributes:
-    print(f'{i} = {x.attributes[i]}')
+    print('{} = {}'.format(i, x.attributes[i]))
+ #   print(f'{i} = {x.attributes[i]}')
 
 
 def fizzBuzz(input):
