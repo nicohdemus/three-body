@@ -1,6 +1,14 @@
 class ThreeBody:
-    def __init__(self):
-        self.name = 'ThreeBody'
+    num_of_players = 0
+
+    def __init__(self, name='none'):
+        ThreeBody.num_of_players += 1
+        
+        if name == 'none':
+           self.name = 'Player_' + str(ThreeBody.num_of_players)
+        else:
+            self.name = name
+
         self.attributes = {
             'STR':      4,
             'AGI':      4,

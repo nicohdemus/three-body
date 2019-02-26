@@ -1,4 +1,4 @@
-import threeBody
+from threeBody import *
 
 print("""
 Hello World""")
@@ -8,7 +8,8 @@ testVar = 'Hello Dave'
 
 print('Test variable = {}'.format(testVar))
 
-x = threeBody.ThreeBody()
+x = ThreeBody()
+y = ThreeBody()
 
 x.setAttribute(STR=6, VIG=8, CHA=0)
 x.setSkill(Range=6)
@@ -25,6 +26,8 @@ for i in x.attributes:
     print('{} = {}'.format(i, x.attributes[i]))
  #   print(f'{i} = {x.attributes[i]}')
 
+print("\nPlayer name: {}".format(x.name))
+print("\nPlayer name: {}\n\n".format(y.name))
 
 def fizzBuzz(input):
     output = ""
