@@ -14,7 +14,7 @@
 [Vehicle]->[Ranged Weapon]
 [Character]->[Edge|Name;Description]
 [Character]->[Hindrance|Name;Description]
-[Trait]->[Die]
+[Trait]->[Die|d]
 [Edge]<>-[Arcane Background|Type;Power Points]
 [Arcane Background]->[Power|Trappings;Description]
 [Power]->[Die]
