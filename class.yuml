@@ -1,6 +1,11 @@
 // {type:class}
 // {direction:topDown}
-[Player|Name;Age;Sex|addChar()]<->[Character]
-[Character]<->[Attribute]
-[Character]<->[Skill]
-[Character]<->[Armor]
+[Player|Name;Age;Sex|addChar()]->[Character]
+[Character]->[Attribute]
+[Character]->[Skill]
+[Character]->[Armor]
+[Character]->[Edge|Name;Description]
+[Character]->[Hindrance|Name;Description]
+[Character]->[Weapon|Name;Class;Range;RoF;Damage]
+[Attribute]->[Die]
+[Skill]->[Die]
