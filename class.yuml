@@ -2,10 +2,10 @@
 // {direction:topDown}
 [Player|Name;Age;Sex|addChar()]->[Character]
 [Character]->[Trait]
-[Character]->[Gear|Name;Description;Notes;Cost]
+[Character]->[Gear|Name;Period;Description;Notes;Cost;Weight]
 [Trait]<>-[Attribute|Name;Description]
 [Trait]<>-[Skill|Name;Description]
-[Gear]<>-[Armor Piece|Type;Position;Bonus]
+[Gear]<>-[Armor Piece|Type;Position;Bonus;Parry;Cover]
 [Gear]<>-[Weapon|Type;Class;Damage;Minimum Strength]
 [Gear]<>-[Common Gear]
 [Weapon]<>-[Melee Weapon]
