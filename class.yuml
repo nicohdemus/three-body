@@ -1,0 +1,6 @@
+// {type:class}
+// {direction:topDown}
+[Player|Name;Age;Sex|addChar()]<->[Character]
+[Character]<->[Attribute]
+[Character]<->[Skill]
+[Character]<->[Armor]
